@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    
+    padding: 0;
+    margin: 0;
+}
+
+body{font-family: "Azeret Mono", monospace;
+}
+
+/* nav styles */
+.nav-container a{
+    text-decoration: none;
+}
+
+.nav-container ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    
+}
+/* Awlad.H */
+.nav-container .title-name{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 28px;
+font-weight: 800;
+line-height: 33px;
+letter-spacing: 0%;
+text-align: left;
+/* layout */
+position: absolute;
+width: 114px;
+height: 34px;
+left: 150px;
+top: 50px;
+}
+
+/* Download-Button */
+.nav-container .download-resume{
+position: absolute;
+top: 38px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 17px 24px 17px 24px;
+box-sizing: border-box;
+border: 1px solid rgb(13, 19, 33);
+border-radius: 8px;
+opacity: 0.8;
+stroke:1px Inside #0D1321;
+cursor: pointer;
+
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+/* Hero section */
+#hero{
+        /* Hero-bg */
+    background-image: url("/assets/Hero-bg.png");
+   
+position: absolute;
+height: 652px;
+left: 0;
+right: 0;
+top: 131px;
+bottom: 4462px;
+}
+/* hero -div */
+.hero-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+}
+.hero-container .vactor{
+    padding-top: 26px;
+    
+}
+.hero-container .hero-title{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 48px;
+font-weight: 800;
+line-height: 68px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+.hero-container .hero-subtile{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+
+}
+.hero-container .contect-button{
+position: static;
+height: 66px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 21px 24px 21px 24px;
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+border-radius: 8px;
+background: rgb(13, 19, 33);
+
+color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 18px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+}
