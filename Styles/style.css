@@ -3,7 +3,6 @@
     margin: 0;
     font-family: Azeret Mono, monospace;
 }
-
 body{
     font-family: "Azeret Mono", monospace;
 }
@@ -36,63 +35,63 @@ nev
     
 }
 /* Awlad.H */
-.nav-container .title-name{
-color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 28px;
-font-weight: 800;
-line-height: 33px;
-letter-spacing: 0%;
-text-align: left;
-/* layout */
-/* position: absolute; */
-width: 114px;
-height: 34px;
-left: 150px;
-top: 50px;
-}
+    .nav-container .title-name{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: left;
+    /* layout */
+    /* position: absolute; */
+    width: 114px;
+    height: 34px;
+    left: 150px;
+    top: 50px;
+    }
 
 /* Download-Button */
-.nav-container .download-resume{
-top: 38px;
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 17px 24px 17px 24px;
-box-sizing: border-box;
-border: 1px solid rgb(13, 19, 33);
-border-radius: 8px;
-opacity: 0.8;
-stroke:1px Inside #0D1321;
-cursor: pointer;
+    .nav-container .download-resume{
+    top: 38px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 24px 17px 24px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
+    stroke:1px Inside #0D1321;
+    cursor: pointer;
 
-color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 20px;
-font-weight: 600;
-line-height: 23px;
-text-align: center;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: center;
 
-color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 20px;
-font-weight: 600;
-line-height: 23px;
-letter-spacing: 0%;
-text-align: center;
-}
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    }
 
 /* Hero section */
-#hero{
+    #hero{
         /* Hero-bg */
-background-image: url("/assets/Hero-bg.png");
-height: 652px;
-left: 0;
-right: 0;
-top: 131px;
-bottom: 4462px;
-}
+    background-image: url("/assets/Hero-bg.png");
+    height: 652px;
+    left: 0;
+    right: 0;
+    top: 131px;
+    bottom: 4462px;
+    }
 /* hero -div */
 .hero-container{
     display: flex;
@@ -104,16 +103,16 @@ bottom: 4462px;
 .hero-container .vactor{
     padding-top: 26px;
 }
-.hero-container .hero-title{
-color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 48px;
-font-weight: 800;
-line-height: 68px;
-letter-spacing: 0%;
-text-align: center;
+    .hero-container .hero-title{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: 0%;
+    text-align: center;
 
-}
+    }
 .hero-container .hero-subtile{
 color: rgb(13, 19, 33);
 font-family: Azeret Mono;
@@ -125,7 +124,7 @@ text-align: center;
 opacity: 0.7;
 
 }
-.hero-container .contect-button{
+.contect-button{
 /* position: static; */
 height: 66px;
 display: flex;
@@ -138,55 +137,60 @@ background: rgb(13, 19, 33);
 
 color: rgb(255, 255, 255);
 font-family: Azeret Mono;
-font-size: 18px;
+font-size: 20px;
 font-weight: 600;
 line-height: 23px;
 letter-spacing: 0%;
 text-align: center;
 }
 
+.contect-button a {
+    color: white;
+    text-decoration: none;
+}
+
 /* Main Container -Why web Devolopment */
 
 .main-container{
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: flex-start;
-padding: 80px 97px 80px 97px;
-border-radius: 16px;
-background: rgba(13, 19, 33, 0.02);
-}
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 80px 97px 80px 97px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    }
   
 .main-content{
-margin: 0px 10px; */
+margin: 0px 10px; 
 }
 .title-container{
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: center;
-padding: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 48px;
 }
 .m-title{
-color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 42px;
-font-weight: 800;
-line-height: 37px;
-letter-spacing: 0%;
-text-align: center;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
 }
 .disc{
-text-align: center;
- margin-top: 63px;
- color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 21px;
-font-weight: 400;
-line-height: 26px;
-letter-spacing: 0%;
-text-align: center;
-opacity: 0.7;
+    text-align: center;
+    margin-top: 63px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
 
 }
 
@@ -201,49 +205,48 @@ opacity: 0.7;
     padding:48px
 }
 .container-1-title{
-color: rgba(13, 19, 33, 0.7);
-font-family: Azeret Mono;
-font-size: 31px;
-font-weight: 700;
-line-height: 45px;
-text-align: left;
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 45px;
+    text-align: left;
 
 }
 .container-1-subtitle{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
-    font-size: 21px;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 26px;
+    line-height: 36px;
     letter-spacing: 0%;
     text-align: left;
     opacity: 0.7;
 }
 .learn-more-btn{
-    /* Frame 7 */
-position: static;
-width: 199px;
-height: 63px;
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 12px 20px 12px 20px;
-margin: 32px 0px;
-box-sizing: border-box;
-border: 1px solid rgb(13, 19, 33);
-opacity: 0.7;
-color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 20px;
-font-weight: 600;
-line-height: 23px;
-text-align: center;
+    width: 199px;
+    height: 63px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 20px 12px 20px;
+    margin: 32px 0px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: center;
+    cursor: pointer;
 
 }
  .img-size{
-width: 364px;
-height: 319px; 
+    width: 364px;
+    height: 319px; 
 }
 /* My inspiration */
 .my-inspiration{
@@ -263,39 +266,41 @@ height: 319px;
     border-radius: 16px;
 
 }
+
+/* Card- Section */
 .card{
     display: flex;
     justify-content: center;
     gap: 20px;
 }
 .card-title{
-color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 31px;
-font-weight: 800;
-line-height: 36px;
-letter-spacing: 0%;
-text-align: left;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 31px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
 }
 .card-disc{
-color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-letter-spacing: 0%;
-text-align: left;
-opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
 }
 .learn-style{
-color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 16px;
-font-weight: 700;
-line-height: 19px;
-letter-spacing: 0%;
-text-align: left;
-text-decoration-line: underline;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
 }
 .card-content{
     padding: 40px;
@@ -317,4 +322,119 @@ text-decoration-line: underline;
 .yellow-bg{
     border-radius: 16px;
     background: rgba(255, 223, 0, 0.05);
+}
+ /* footer-section */
+.footer-container{
+   
+    padding: 150px;
+    align-items: center;
+
+  
+}
+
+
+.footer-child {
+    background-image: url("/assets/handshake.jpg");
+    padding: 64px 48px 64px 48px;
+    border-radius: 16px;
+    background-position: center;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.2)
+        rgba(0, 0, 0, 0.2)
+        rgba(0, 0, 0, 0.2)
+            );
+        
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.footer-heading {
+  margin-left: 157px;
+  margin-right: 157px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.search-box{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 30px;
+    padding-top: 24px;
+}
+.footer-title{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+.footer-subtitle{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+
+}
+.searchbox-style{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    width: 548px;
+    height: 57px;
+    padding: 19px 20px 19px 20px;
+    opacity: 0.7;
+
+
+color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.submit-btn{
+    width: 120px;
+    height: 58px;
+    padding: 17px 20px 17px 20px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.footer-link{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+}
+.cradit{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
 }
