@@ -1,10 +1,7 @@
-
 *{
-    
     padding: 0;
     margin: 0;
     font-family: Azeret Mono, monospace;
-    
 }
 
 body{
@@ -19,10 +16,11 @@ main {
     flex-direction: column;
     gap: 1rem;
 }
+nev
 
 /* nav styles */
 .nav-container{
-    display: relative;
+    padding: 1rem;
    
 }
 .nav-container a{
@@ -33,7 +31,8 @@ main {
     display: flex;
     justify-content: space-around;
     list-style: none;
-    
+    padding: 1rem;
+    align-items: center;    
     
 }
 /* Awlad.H */
@@ -46,7 +45,7 @@ line-height: 33px;
 letter-spacing: 0%;
 text-align: left;
 /* layout */
-position: absolute;
+/* position: absolute; */
 width: 114px;
 height: 34px;
 left: 150px;
@@ -55,7 +54,6 @@ top: 50px;
 
 /* Download-Button */
 .nav-container .download-resume{
-position: absolute;
 top: 38px;
 display: flex;
 flex-direction: row;
@@ -74,7 +72,6 @@ font-family: Azeret Mono;
 font-size: 20px;
 font-weight: 600;
 line-height: 23px;
-letter-spacing: 0%;
 text-align: center;
 
 color: rgb(13, 19, 33);
@@ -89,9 +86,7 @@ text-align: center;
 /* Hero section */
 #hero{
         /* Hero-bg */
-    background-image: url("/assets/Hero-bg.png");
-   
-position: absolute;
+background-image: url("/assets/Hero-bg.png");
 height: 652px;
 left: 0;
 right: 0;
@@ -106,11 +101,8 @@ bottom: 4462px;
     flex-direction: column;
     gap: 32px;
 }
-
-
 .hero-container .vactor{
     padding-top: 26px;
-    
 }
 .hero-container .hero-title{
 color: rgb(13, 19, 33);
@@ -134,17 +126,13 @@ opacity: 0.7;
 
 }
 .hero-container .contect-button{
-position: static;
+/* position: static; */
 height: 66px;
 display: flex;
 flex-direction: row;
 justify-content: center;
 align-items: center;
 padding: 21px 24px 21px 24px;
-/* Inside Auto Layout */
-flex: none;
-order: 1;
-flex-grow: 0;
 border-radius: 8px;
 background: rgb(13, 19, 33);
 
@@ -159,14 +147,7 @@ text-align: center;
 
 /* Main Container -Why web Devolopment */
 
-    .main-container{
-position: absolute;
-height: 1395px;
-left: 148px;
-right: 152px;
-top: 857px;
-bottom: 2993px;
-/* Auto layout */
+.main-container{
 display: flex;
 flex-direction: row;
 justify-content: center;
@@ -177,34 +158,14 @@ background: rgba(13, 19, 33, 0.02);
 }
   
 .main-content{
-        /* Frame 12 */
-position: static;
-
-/* Auto layout */
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-
-padding: 0px;
-/* Inside Auto Layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-margin: 0px 10px;
+margin: 0px 10px; */
 }
 .title-container{
-    /* Frame 5 */
-position: static;
-/* Auto layout */
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
 align-items: center;
 padding: 48px;
-/* Inside Auto Layout */
-flex: none;
-order: 0;
-flex-grow: 0;
 }
 .m-title{
 color: rgb(13, 19, 33);
@@ -263,17 +224,11 @@ text-align: left;
 position: static;
 width: 199px;
 height: 63px;
-/* Auto layout */
 display: flex;
 flex-direction: row;
 justify-content: center;
 align-items: center;
 padding: 12px 20px 12px 20px;
-
-/* Inside Auto Layout */
-flex: none;
-order: 1;
-flex-grow: 0;
 margin: 32px 0px;
 box-sizing: border-box;
 border: 1px solid rgb(13, 19, 33);
@@ -283,11 +238,83 @@ font-family: Azeret Mono;
 font-size: 20px;
 font-weight: 600;
 line-height: 23px;
-letter-spacing: 0%;
 text-align: center;
 
 }
  .img-size{
 width: 364px;
 height: 319px; 
+}
+/* My inspiration */
+.my-inspiration{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.vedio-container{
+    width: 1076px; 
+    height: 550px; 
+    border-radius: 16px ;
+    text-align: center; 
+    padding: 32px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+
+}
+.card{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.card-title{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 31px;
+font-weight: 800;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+}
+.card-disc{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0.7;
+}
+.learn-style{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
+}
+.card-content{
+    padding: 40px;
+}
+.card-text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 16px;
+}
+.red-bg{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+.blue-bg{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+.yellow-bg{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
 }
